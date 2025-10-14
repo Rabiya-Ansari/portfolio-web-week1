@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "How I built my portfolio",
+        "category": "tutorial",
+        "excerpt": "A step-by-step walkthrough of the portfolio project.",
+        "img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1000&q=60"
+    },
+    {
+        "id": 2,
+        "title": "Thoughts on learning",
+        "category": "thoughts",
+        "excerpt": "Short thoughts about studying web development.",
+        "img": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=1000&q=60"
+    }
+]

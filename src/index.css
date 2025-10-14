@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --text: #fff;
+  --card: #f7f7f8;
+  --bg:#0B0F19;
+  --muted: #666;
+  --accent: #ff6b6b;
+  --button:#3B9797;
+  --glass: rgba(255, 255, 255, 0.6)
+}
+
+body{
+  background:linear-gradient(#141e30,#243b55);;
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Development Tips",
+        "category": "Frontend",
+        "image": "/media/hero.png",
+        "excerpt": "Best practices to improve UI and user experience.",
+        "content": "Full article content for Frontend Development Tips..."
+    },
+    {
+        "id": 2,
+        "title": "Getting Started with react.js",
+        "category": "Frontend",
+        "image": "/media/hero.png",
+        "excerpt": "Learn the basics of react.js for beginners.",
+        "content": "Full article content for Getting Started with Node.js..."
+    },
+    {
+        "id": 3,
+        "title": "UI Design Principles",
+        "category": "UI",
+        "image": "/media/hero.png",
+        "excerpt": "Key rules for aesthetic and functional UI.",
+        "content": "Full article content for UI Design Principles..."
+    }
+]

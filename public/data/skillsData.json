@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "category": "Frontend",
+    "level": 90,
+    "description": "Semantic HTML structure and accessibility."
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "category": "Frontend",
+    "level": 85,
+    "description": "Tailwind, Flexbox, Grid, responsive designs."
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "category": "Frontend",
+    "level": 80,
+    "description": "ES6+, DOM manipulation, async JS."
+  },
+  {
+    "id": 4,
+    "name": "Bootstrap",
+    "category": "Frontend",
+    "level": 75,
+    "description": "API development and Express.js."
+  },
+  {
+    "id": 5,
+    "name": "React.js",
+    "category": "Frontend",
+    "level": 70,
+    "description": "Database modeling and CRUD operations."
+  },
+  {
+    "id": 6,
+    "name": "Git & GitHub",
+    "category": "Tools",
+    "level": 85,
+    "description": "Version control and collaboration."
+  }
+]
