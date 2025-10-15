@@ -3,24 +3,24 @@
         "id": 1,
         "title": "Frontend Development Tips",
         "category": "Frontend",
-        "image": "/media/hero.png",
+        "image": "/media/blog1.png",
         "excerpt": "Best practices to improve UI and user experience.",
-        "content": "Full article content for Frontend Development Tips..."
+        "content": "Write Clean and Reusable Code.Make Your UI Responsive.Use a CSS Strategy.Test Your UI.Use Version Control (Git).Stay Updated with Latest Trends"
     },
     {
         "id": 2,
         "title": "Getting Started with react.js",
         "category": "Frontend",
-        "image": "/media/hero.png",
+        "image": "/media/react.png",
         "excerpt": "Learn the basics of react.js for beginners.",
-        "content": "Full article content for Getting Started with Node.js..."
+        "content": "Set up a clean folder structure – separate components, pages, assets, and utils.Use functional components with hooks instead of old class-based components.Start with reusable UI components like buttons, cards, and layouts.Use a CSS approach (Tailwind, CSS Modules, or styled-components) for styling.Keep state organized using useState, useReducer, or Context API.Test your UI early on different screen sizes and browsers"
     },
     {
         "id": 3,
         "title": "UI Design Principles",
         "category": "UI",
-        "image": "/media/hero.png",
+        "image": "/media/ui.png",
         "excerpt": "Key rules for aesthetic and functional UI.",
-        "content": "Full article content for UI Design Principles..."
+        "content": "Clarity First – Every element should be easy to understand and not confuse the user.Consistency Matters – Use the same colors, typography, spacing, and button styles throughout the UI.Visual Hierarchy – Highlight important elements using size, spacing, and contrast.User-Friendly Navigation – Menus and actions should be easy to find and use.Feedback & Interaction – Buttons, forms, and loaders should respond to user actions (e.g., hover, click, success).Accessibility – Make designs usable for everyone with readable fonts, alt text, and good color contrast."
     }
 ]

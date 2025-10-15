@@ -1,44 +1,44 @@
 [
   {
     "id": 1,
-    "title": "Portfolio Website",
+    "title": "College Management System",
     "category": "Web",
-    "images": ["/img/p1.jpg", "/img/p1-2.jpg"],
-    "description": "A personal portfolio built with React and Tailwind."
+    "images": ["./media/projectcms-home.png", "./media/projectcms-about.png"],
+    "description": "College management system using react.js custom css. "
   },
   {
     "id": 2,
     "title": "Portfolio Website",
     "category": "UI",
-    "images": ["/img/p2.jpg", "/img/p2-2.jpg"],
+    "images": ["/media/portfolio.png", "/media/portfolio-projects.png"],
     "description": "Dashboard design with Figma and Tailwind."
   },
   {
     "id": 3,
-    "title": "Portfolio Website",
+    "title": "Rcipe Finder",
     "category": "Apps",
-    "images": ["/img/p3.jpg"],
-    "description": "Mobile UI for an e-commerce application."
+    "images": ["/media/recipe.png"],
+    "description": "Mobile UI for  using API and html css "
   },
   {
     "id": 4,
-    "title": "Landing Page",
+    "title": "Nail Art",
     "category": "Web",
-    "images": ["/img/p4.jpg"],
+    "images": ["/media/nail-gallery.png"],
     "description": "Marketing landing page with animations."
   },
   {
     "id": 5,
-    "title": "College MS",
+    "title": "Gift Finder",
     "category": "UI",
-    "images": ["/img/p5.jpg"],
-    "description": "Interactive prototype for client."
+    "images": ["/media/gift-finder.png"],
+    "description": "Interactive UI using html css ."
   },
   {
     "id": 6,
-    "title": "Food Finder",
+    "title": "Custom Gift App",
     "category": "Apps",
-    "images": ["/img/p6.jpg"],
-    "description": "App UI screens for food ordering."
+    "images": ["/media/giftapp.png"],
+    "description": "App UI screens for custom gifts ordering love one making every ocasion special."
   }
 ]

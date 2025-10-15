@@ -36,13 +36,13 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50">
 
       <div
-        className="h-1 bg-gradient-to-r from-[#135169] via-[#25F3FA]"
+        className="h-1 bg-gradient-to-r from-[var(--text)] via-[#27A5DE]"
         style={{ width: `${scrollProgress}%` }}
       ></div>
 
       <div className="bg-transparent backdrop-blur-md border-b border-gray-200">
         <div className="max-w-6xl mx-auto flex justify-between items-center h-16 px-4">
-          <h1 className="font-bold text-2xl text-white">RabiyaAnsari</h1>
+          <h1 className="font-bold text-2xl text-white"><i class="ri-macbook-line"></i>RabiyaAnsari</h1>
 
           <nav>
             <ul

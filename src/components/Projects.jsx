@@ -42,7 +42,13 @@ const Projects = () => {
 
   return (
     <section className="py-12 px-6 md:px-16  text-[var(--text)]" id="projects">
-      <h2 className="text-3xl font-bold text-center mb-6">Projects</h2>
+      <h2
+        className="text-4xl text-center font-extrabold mb-6 text-[#27A5DE]
+  drop-shadow-[0_0_8px_rgba(39,165,222,0.9)]
+  animate-pulse"
+      >
+        Projects
+      </h2>
 
       <div className="flex justify-center gap-4 mb-8 flex-wrap">
         {categories.map((cat) => (
@@ -52,10 +58,10 @@ const Projects = () => {
               setActiveCategory(cat);
               setVisibleCount(3);
             }}
-            className={`px-5 py-2 rounded-full text-sm font-medium border transition-all duration-300
+            className={`px-5 py-2 rounded-lg text-sm font-semibold uppercase tracking-wide border transition-all duration-300
     ${activeCategory === cat
-                ? "bg-[var(--button)] text-white border-[var(--accent)]"
-                : "bg-transparent border-gray-500 text-gray-300 hover:border-[var(--accent)] hover:text-[var(--accent)]"
+                ? "border-[#27A5DE] text-[#27A5DE] shadow-[0_10px_20px_rgba(0,170,255,0.3)] -translate-y-1"
+                : "border-white text-white hover:border-[#27A5DE] hover:text-[#27A5DE] hover:shadow-[0_10px_20px_rgba(0,170,255,0.3)] hover:-translate-y-1"
               }`}
           >
             {cat}
@@ -64,11 +70,11 @@ const Projects = () => {
       </div>
 
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3" data-aos="fade-up">
         {visibleProjects.map((project) => (
           <div
             key={project.id}
-            className="bg-gray-800 shadow-md rounded-lg overflow-hidden cursor-pointer hover:shadow-lg transition"
+            className="bg-[var(--button)] shadow-md rounded-lg overflow-hidden cursor-pointer hover:shadow-lg transition"
             onClick={() => openModal(project)}
           >
             <img
@@ -80,7 +86,7 @@ const Projects = () => {
               <h3 className="text-lg font-semibold text-white">
                 {project.title}
               </h3>
-              <p className="text-sm text-gray-400">{project.category}</p>
+              <p className="text-sm text-gray-900">{project.category}</p>
             </div>
           </div>
         ))}
@@ -91,7 +97,11 @@ const Projects = () => {
         <div className="text-center mt-8">
           <button
             onClick={loadMore}
-            className="bg-[var(--button)] border-gray-500 text-gray-300 hover:border-[var(--accent)] hover:text-[var(--accent)] px-5 py-2 rounded-full text-sm font-medium border transition-all duration-300"
+            className="inline-block px-8 py-3 rounded-xl font-semibold uppercase tracking-wider 
+  bg-transparent border border-white text-white text-sm md:text-base 
+  transition-all duration-300 
+  hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(0,170,255,0.3)] 
+  hover:border-[#27A5DE] hover:text-[#27A5DE]"
           >
             Load More
           </button>

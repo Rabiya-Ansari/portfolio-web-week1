@@ -39,16 +39,25 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-100 dark:bg-gray-900">
+    <div id="contact"
+      style={{
+        backgroundImage: "url('/media/bg-image.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      className="py-16 bg-gray-100 ">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-10 text-gray-800 dark:text-white">
+        <h2
+          className="text-4xl text-center font-extrabold mb-6 text-[#27A5DE]
+  drop-shadow-[var(--button)]"
+        >
           Contact Me
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 
-          <form onSubmit={handleSubmit} className="space-y-6 bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
+          <form onSubmit={handleSubmit} className="space-y-6 bg-[var(--bg)] backdrop-blur-md border-[#27A5DE] p-6 rounded-xl shadow-lg">
             <div>
-              <label className="block text-gray-700 dark:text-gray-300 font-medium">
+              <label className="block text-white  font-medium">
                 Name
               </label>
               <input
@@ -56,14 +65,14 @@ const Contact = () => {
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                className="w-full p-3 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                className="w-full text-white p-3 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 "
               />
               {errors.name && (
                 <p className="text-red-500 text-sm mt-1">{errors.name}</p>
               )}
             </div>
             <div>
-              <label className="block text-gray-700 dark:text-gray-300 font-medium">
+              <label className="block  text-white  font-medium">
                 Email
               </label>
               <input
@@ -71,14 +80,14 @@ const Contact = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                className="w-full p-3 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 dark:bg-gray-700 dark:text-white"
+                className="w-full text-white p-3 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 "
               />
               {errors.email && (
                 <p className="text-red-500 text-sm mt-1">{errors.email}</p>
               )}
             </div>
             <div>
-              <label className="block text-gray-700 dark:text-gray-300 font-medium">
+              <label className="block  text-white font-medium">
                 Subject
               </label>
               <input
@@ -86,7 +95,7 @@ const Contact = () => {
                 name="subject"
                 value={form.subject}
                 onChange={handleChange}
-                className="w-full p-3 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-700 dark:text-white"
+                className="w-full text-white p-3 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
               {errors.subject && (
                 <p className="text-red-500 text-sm mt-1">{errors.subject}</p>
@@ -101,7 +110,7 @@ const Contact = () => {
                 value={form.message}
                 onChange={handleChange}
                 rows="4"
-                className="w-full p-3 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500 dark:bg-gray-700 dark:text-white resize-none"
+                className="w-full text-white p-3 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500 resize-none"
               ></textarea>
               {errors.message && (
                 <p className="text-red-500 text-sm mt-1">{errors.message}</p>
@@ -109,7 +118,9 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-md transition"
+              className="w-full inline-block px-8 py-3 rounded-xl font-semibold uppercase tracking-wider bg-transparent border border-white text-white text-sm md:text-base transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(0,170,255,0.3)] hover:border-[#27A5DE] hover:text-[#27A5DE]"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               Send Message
             </button>
@@ -137,13 +148,13 @@ const Contact = () => {
                 href="#"
                 className="text-gray-700 dark:text-gray-300 text-2xl hover:text-pink-500 transition"
               >
-              <i class="ri-instagram-line"></i>
+                <i class="ri-instagram-line"></i>
               </a>
               <a
                 href="#"
                 className="text-gray-700 dark:text-gray-300 text-2xl hover:text-blue-400 transition"
               >
-               <i class="ri-linkedin-box-line"></i>
+                <i class="ri-linkedin-box-line"></i>
               </a>
               <a
                 href="#"
@@ -155,7 +166,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
